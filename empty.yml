@@ -1,0 +1,5 @@
+---
+- hosts: all
+  tasks:
+    - name: Please do not touch this playbook
+      debug: msg="Please do not modify this playbook as it is a fake one"
